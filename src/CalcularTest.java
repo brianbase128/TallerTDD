@@ -15,13 +15,14 @@ public class CalcularTest {
 
 	@Test
 	public void sumar_5_mas_2_es_7() throws Exception {
-		calc.sumar(1, 1);
+		calc.sumar(5, 2);
 		assertEquals(7, calc.resultado());
 	}
 	
 	@Test
 	public void sumar_5_mas_4_es_9() throws Exception {
-		assertEquals(9, calc.valor());
+		calc.sumar(5, 4);
+		assertEquals(9, calc.resultado());
 	}
 
 }

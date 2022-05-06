@@ -1,20 +1,14 @@
 
 public class Calcular {
 
-	public Object valor() {
-		return 0;
-	}
+	private int resultado = 0;
 	
 	public void sumar(int i, int j) {
-		
+		resultado = i + j;
 	}
 
-	public Object resultado() {
-		return 7;
+	public int resultado() {
+		return resultado;
 	}
-
-	
-
-
 
 }
