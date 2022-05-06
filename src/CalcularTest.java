@@ -6,17 +6,21 @@ import org.junit.Test;
 
 public class CalcularTest {
 
+	private Calcular calc;
+
+	@Before
+	public void setUP() throws Exception {
+		calc = new Calcular();
+	}
+
 	@Test
-	public void test() {
-		Calcular calc = new Calcular();
+	public void test() throws Exception {
 		assertEquals(0, calc.valor());
 	}
-	
+
 	@Test
-	public void sumar() {
-		Calcular calc = new Calcular();
-		calc.sumar(1,1);
+	public void sumar() throws Exception {
+		calc.sumar(1, 1);
 	}
-	
 
 }
