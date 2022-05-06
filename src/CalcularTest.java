@@ -19,8 +19,9 @@ public class CalcularTest {
 	}
 
 	@Test
-	public void sumar() throws Exception {
+	public void sumar_5_mas_2_es_7() throws Exception {
 		calc.sumar(1, 1);
+		assertEquals(7, calc.resultado());
 	}
 
 }
