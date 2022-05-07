@@ -11,4 +11,8 @@ public class Calcular {
 		return resultado;
 	}
 
+	public int restar(int i, int j) {
+		return 0;
+	}
+
 }
