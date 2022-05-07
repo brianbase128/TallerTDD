@@ -20,7 +20,7 @@ public class Calcular {
 	}
 
 	public void dividir(int i, int j) {
-		
+		resultado = i/j;
 	}
 
 }
