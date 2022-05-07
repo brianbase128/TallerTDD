@@ -51,7 +51,7 @@ public class CalcularTest {
 
 	@Test
 	public void dividir_10_dividido_10_es_1() throws Exception {
-		calc.divir(10, 10);
+		calc.dividir(10, 10);
 //		assertEquals(-50, calc.resultado());
 	}
 	
