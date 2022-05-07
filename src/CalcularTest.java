@@ -42,4 +42,10 @@ public class CalcularTest {
 		calc.multiplicar(5, 2);
 		assertEquals(10, calc.resultado());
 	}
+	
+	@Test
+	public void multiplicar_5_por_menos10_es_menos50() throws Exception {
+		calc.multiplicar(5, -10);
+		assertEquals(-50, calc.resultado());
+	}
 }
