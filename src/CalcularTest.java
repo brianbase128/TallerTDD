@@ -37,4 +37,9 @@ public class CalcularTest {
 		assertEquals(-1, calc.resultado());
 	}
 
+	@Test
+	public void multiplicar_5_por_2_es_10() throws Exception {
+		calc.multiplicar(5, 6);
+//		assertEquals(-1, calc.resultado());
+	}
 }
