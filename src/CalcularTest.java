@@ -28,7 +28,7 @@ public class CalcularTest {
 	@Test
 	public void restar_5_menos_2_es_3() throws Exception {
 		calc.restar(5, 2);
-//		assertEquals(3, calc.resultado());
+		assertEquals(3, calc.resultado());
 	}
 
 }
