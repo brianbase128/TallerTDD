@@ -48,4 +48,11 @@ public class CalcularTest {
 		calc.multiplicar(5, -10);
 		assertEquals(-50, calc.resultado());
 	}
+
+	@Test
+	public void dividir_10_dividido_10_es_1() throws Exception {
+		calc.divir(10, 10);
+//		assertEquals(-50, calc.resultado());
+	}
+	
 }
