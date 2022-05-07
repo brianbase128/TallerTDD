@@ -19,7 +19,7 @@ public class Calcular {
 		resultado = i*j;
 	}
 
-	public void dividir(int i, int j) {
+	public void dividir(int i, int j)throws Exception {
 		resultado = i/j;
 	}
 
