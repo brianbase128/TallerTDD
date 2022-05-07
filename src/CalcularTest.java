@@ -1,9 +1,5 @@
 
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
-import static org.junit.Assert.assertThrows;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -61,7 +57,6 @@ public class CalcularTest {
 	
 	@Test
 	public void dividir_10_dividido_menos5_es_menos2() throws Exception {
-
 		calc.dividir(10, -5);
 		assertEquals(-2, calc.resultado());
 	}
