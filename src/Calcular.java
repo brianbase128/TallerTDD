@@ -16,7 +16,7 @@ public class Calcular {
 	}
 
 	public void multiplicar(int i, int j) {
-		
+		resultado = i*j;
 	}
 
 }
