@@ -30,5 +30,11 @@ public class CalcularTest {
 		calc.restar(5, 2);
 		assertEquals(3, calc.resultado());
 	}
+	
+	@Test
+	public void restar_5_menos_6_es_menos1() throws Exception {
+		calc.restar(5, 6);
+		assertEquals(-1, calc.resultado());
+	}
 
 }
