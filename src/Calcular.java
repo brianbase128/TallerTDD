@@ -15,4 +15,8 @@ public class Calcular {
 		resultado = i-j;
 	}
 
+	public void multiplicar(int i, int j) {
+		
+	}
+
 }
